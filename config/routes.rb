@@ -1,4 +1,19 @@
 Auth::Application.routes.draw do
+  root :to => 'users#new'
+  get "users/new"
+
+  get "users/create"
+
+  get "users/update"
+
+  get "users/edit"
+
+  get "users/destroy"
+
+  get "users/index"
+
+  get "users/show"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
